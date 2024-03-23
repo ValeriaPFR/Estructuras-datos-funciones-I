@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 """Ejercicio desarrollado de forma individual y compartido al grupo"""
+
 # Importar la biblioteca sys
 import sys
 
