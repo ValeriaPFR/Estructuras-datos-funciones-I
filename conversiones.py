@@ -1,11 +1,12 @@
+"""Ejercicio desarrollado de forma individual"""
 # Importar la biblioteca sys
 import sys
 
-# Tasas de conversión de Peso Chileno a otras divisas
+# Tasas de conversión de Peso Chileno a otras monedas
 tasas_conversion = {
     "Sol": 0.0046,
     "PesoArgentino": 0.093,
-    "DolarAmericano": 0.00013
+    "DolarAmericano": 0.0013
 }
 
 def convertir_pesos_chilenos(valor_pesos_chilenos):
@@ -17,7 +18,7 @@ def convertir_pesos_chilenos(valor_pesos_chilenos):
     return resultado
 
 if __name__ == "__main__":
-    # Verificar que se ingresaron los argumentos correctos
+    # Validar que se ingresaron los argumentos correctos
     if len(sys.argv) != 5:
         print("Error: Debes ingresar 4 argumentos: Sol, Peso Argentino, Dólar Americano y el valor en Peso Chileno a convertir.")
     else:
