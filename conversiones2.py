@@ -8,7 +8,7 @@ conversiones["dolar_usd"]=float(sys.argv[3])
 conversiones["peso_cl"]=float(sys.argv[4])
 
 #Cálculo de Conversiones
-#print(conversiones)
+#CAMBIO DE PRUEBA
 
 print("Los",conversiones["peso_cl"],"pesos chilenos equivalen a: ")
 print(f"{conversiones["sol_pe"] * conversiones["peso_cl"]} soles peruanos")

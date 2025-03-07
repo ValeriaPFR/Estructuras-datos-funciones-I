@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 """Ejercicio desarrollado de forma individual y compartido al grupo"""
 
-# Importar la biblioteca sys
+# Importar la bibliotecas sys
 import sys
 
 # Tasas de conversión de Peso Chileno a otras monedas
